@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+//compare two arraylist
+public class Main { 
+  public static void main(String[] args) { 
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    
+    for (int i = 0; i < cars.size(); i++) {
+      System.out.println(cars.get(i));}
+      ArrayList<String> car = new ArrayList<String>();
+    car.add("Volvo");
+    car.add("BMW");
+    car.add("Ford");
+    car.add("Mazda");
+    System.out.println(car.equals(cars));
+    
+  } 
+}
+
+/*
+Volvo
+BMW
+Ford
+Mazda
+false
+*/
